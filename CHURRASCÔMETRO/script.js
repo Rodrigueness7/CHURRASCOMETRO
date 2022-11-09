@@ -14,9 +14,9 @@ function calcular(){
     let qdtTotalBebida = bebidaPP(duracao) * adultos + (bebidaPP(duracao) / 2 * criancas);
     
    
-    resultado.innerHTML = `<p>${qdtTotalCarne / 1000}kg de Carne</p>`;
-    resultado.innerHTML += `<p>${Math.ceil(qdtTotalCerveja / 355)} Latas de Cerveja</p>`;
-    resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebida / 2000)} Pet's 2L de Bebidas</p>`;
+    resultado.innerHTML = `<p><img src="./imagens/meat.png" style="position: relative; top: 10px; right: 10px;" width="30px">${qdtTotalCarne / 1000}kg de Carne</p>`;
+    resultado.innerHTML += `<p><img src="./imagens/cerveja.png" style="position: relative; top: 10px; right: 10px;" width="30px">${Math.ceil(qdtTotalCerveja / 355)} Latas de Cerveja</p>`;
+    resultado.innerHTML += `<p><img src="./imagens/refrigerante.png" style="position: relative; top: 10px; right: 10px;" width="30px">${Math.ceil(qdtTotalBebida / 2000)} Pet's 2L de Bebidas</p>`;
 
 
 
